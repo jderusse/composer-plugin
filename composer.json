@@ -8,8 +8,8 @@
         "class" : "Jderusse\\Plugin"
     },
     "autoload": {
-        "psr-0": {
-            "Jderusse": "src"
+        "psr-4": {
+            "Jderusse\\": "src"
         }
     }
 }
