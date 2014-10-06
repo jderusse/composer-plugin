@@ -1,0 +1,15 @@
+{
+    "name": "jderusse/plugin",
+    "type" : "composer-plugin",
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    },
+    "extra" : {
+        "class" : "Jderusse\\Plugin"
+    },
+    "autoload": {
+        "psr-0": {
+            "JderussePlugin": "src"
+        }
+    }
+}
